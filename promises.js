@@ -72,14 +72,14 @@
 
 // })
 
-function getdata(id){
-    return new Promise((resolve,reject)=>{
-        setTimeout(() => {
-            console.log(`data = ${id}`);
-            resolve("successfully fetched data");
-        }, 2000);
-    })
-}
+// function getdata(id){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(() => {
+//             console.log(`data = ${id}`);
+//             resolve("successfully fetched data");
+//         }, 2000);
+//     })
+// }
 
 // console.log("fetching data 1.....");
 // getdata(1).then((res)=>{
@@ -92,11 +92,11 @@ function getdata(id){
 
 //Method 2 promise chaining
 
-console.log("getting data...");
-getdata(12).then(()=>{
-    return getdata(24);
-}).then(()=>{
-    return getdata(45);
-}).then((res)=>{
-    console.log(res);
-})
+// console.log("getting data...");
+// getdata(12).then(()=>{
+//     return getdata(24);
+// }).then(()=>{
+//     return getdata(45);
+// }).then((res)=>{
+//     console.log(res);
+// })
