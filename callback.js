@@ -1,17 +1,17 @@
-// // function sum(a,b){
-// //     console.log(a+b);
-// // }
-// // function subtract(a,b){
-// //     console.log(a-b);
-// // }
-// // function calculator(a,b , callback){
-// //     callback(a,b);
+// function sum(a,b){
+//     console.log(a+b);
+// }
+// function subtract(a,b){
+//     console.log(a-b);
+// }
+// function calculator(a,b , callback){
+//     callback(a,b);
 
-// // }
-// // calculator(3,5,sum);
-// // calculator(9,5,subtract);
+// }
+// calculator(3,5,sum);
+// calculator(9,5,subtract);
 
-// //Callback Hell
+//Callback Hell
 // function getdata(id,getnext){
 //     setTimeout(() => {
 //         console.log("Data : ",id);
